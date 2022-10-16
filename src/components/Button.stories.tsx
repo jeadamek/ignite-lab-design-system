@@ -1,5 +1,5 @@
-import { Meta, StoryObj } from '@storybook/react';
-import { Button, ButtonProps } from './Button';
+import { Meta, StoryObj } from '@storybook/react'
+import { Button, ButtonProps } from './Button'
 
 export default {
   title: 'Components/Button',
@@ -7,13 +7,7 @@ export default {
   args: {
     children: 'Create account',
   },
-  argTypes: {
-    asChild: {
-      table: {
-        disable: true,
-      }
-    }
-  },
+  argTypes: {}
 } as Meta<ButtonProps>
 
-export const Default: StoryObj<ButtonProps> = {};
+export const Default: StoryObj<ButtonProps> = {}

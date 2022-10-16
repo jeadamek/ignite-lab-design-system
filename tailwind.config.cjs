@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.tsx'],
+  content: [
+    './src/**/*.tsx',
+  ],
   theme: {
     fontSize: {
       xs: 14,
@@ -30,12 +32,11 @@ module.exports = {
         300: '#9BE1F8'
       }
     },
-    
     extend: {
       fontFamily: {
         sans: 'Inter, sans-serif'
-      }
-    }
+      },
+    },
   },
-  plugins: []
+  plugins: [],
 }
